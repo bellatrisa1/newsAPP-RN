@@ -21,3 +21,45 @@
   - 🌐 Real API — integration with the GNews API
   - 💾 Offline mode — mock data when there is no internet connection
   - 📱 Native navigation — smooth transitions between screens
+
+## 🚀 Quick Start
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (version 16 or higher)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+- [Expo CLI](https://docs.expo.dev/get-started/installation/)
+- A mobile device with [Expo Go](https://expo.dev/go) or an emulator
+
+## 📸 Screenshots:
+
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="assets/screenshots/IMG_7955.jpg" width="200" alt="Loading Screen"></td>
+      <td><img src="assets/screenshots/IMG_7956.jpg" width="200" alt="News Details"></td>
+      <td><img src="assets/screenshots/IMG_7957.jpg" width="200" alt="Categories"></td>
+    </tr>
+    <tr>
+      <td align="center">Loading Screen</td>
+      <td align="center">News Details</td>
+      <td align="center">Categories</td>
+    </tr>
+  </table>
+</div>
+
+## 🛠 Technologies:
+  - React Native — cross-platform development
+  - Expo — accelerated development and build tools
+  - TypeScript — static typing and improved developer experience
+  - React Navigation — screen navigation
+  - GNews API — news data source
+  - AsyncStorage (planned) — local storage
+  - React Native Gesture Handler — gestures and animations
+
+## 1. **Clone the repository**
+   ```bash
+   git clone https://github.com/bellatrisa1/newsAPP-RN.git
+   cd NewsApp
+npm install
+# or
+yarn install
