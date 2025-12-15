@@ -2,7 +2,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import {
   View,
-  Text, // Добавлен импорт Text
+  Text,
   StyleSheet,
   FlatList,
   RefreshControl,

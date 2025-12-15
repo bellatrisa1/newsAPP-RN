@@ -2,7 +2,6 @@
 import { API_CONFIG } from '../config';
 import { Article, Category } from '../types';
 
-// Мок данные на случай проблем с API
 const MOCK_ARTICLES: Article[] = [
   {
     title: 'React Native выпускает новую версию',
@@ -31,7 +30,6 @@ const MOCK_ARTICLES: Article[] = [
 ];
 
 export class NewsService {
-  // Получить топ новостей по категории
   static async getTopHeadlines(
     category: Category = 'general',
     country: string = 'ru'
